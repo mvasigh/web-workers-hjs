@@ -1,0 +1,9 @@
+.Navbar {
+  background: hsla(var(--app-hue), 50%, 10%, 1);
+  position: sticky;
+  top: 0;
+
+  &-menu {
+    margin: 0;
+  }
+}
