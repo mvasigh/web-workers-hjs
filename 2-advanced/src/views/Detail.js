@@ -1,11 +1,15 @@
 import { h } from 'preact';
 import { useEffect } from 'preact/hooks';
 import { Container } from '../components';
+import { setTheme } from '../lib/theme';
 
 const Detail = ({ imageId }) => {
   useEffect(() => {
-    document.documentElement.style.setProperty('--app-hue', '300');
-    document.documentElement.style.setProperty('--app-saturation', '70%');
+    setTheme({
+      hue: '300',
+      saturation: '70%',
+      luminosity: '30%'
+    });
   });
   return (
     <Container>
