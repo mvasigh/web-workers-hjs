@@ -1,4 +1,4 @@
-# Web Workers - Vanilla
+# Web Workers - Bounce Example
 
 This project was bootstrapped with [Parcel](https://parceljs.org/)
 

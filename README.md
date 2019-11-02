@@ -1,5 +1,5 @@
-# Web Workers and React
-Welcome! 🎉 This is the companion repository for my talk on using the Web Workers API within your React application. 
+# Web Workers - Houston.js
+Welcome! 🎉 This is the companion repository for my talk on using the Web Workers API within your JS application. 
 
 ## Requirements
 * Git
@@ -12,25 +12,25 @@ If you want to code along with the workshop portion of the talk, you will need t
 To clone, run the following command:
 
 ```bash
-git clone https://github.com/mvasigh/web-workers-react.git
+git clone https://github.com/mvasigh/web-workers-hjs.git
 cd web-workers-react 
 ```
 
 ### Repository structure
 This repository consists of two applications: 
-* ["Vanilla" JS Web Workers Example](vanilla-app)
-* [React Web Workers Example](react-app)
+* [Intro - Bounce example](1-intro)
+<!-- * [React Web Workers Example](react-app) -->
 
 ### Installing dependencies
 It is recommended that you install dependencies for each of these applications before the workshop in case there are difficulties with WiFi. Simply run `npm install` or `yarn` in each of the two directories to install any necessary depencencies:
 
 ```bash
-cd vanilla-app
+cd 1-intro
 npm install
 
-cd ../react-app
-npm install
+# cd ../react-app
+# npm install
 ```
 
 ## Questions?
-Ask me on Twitter [@mehdi_vasigh](https://github.com/mvasigh/web-workers-react/issues) or open an [issue](https://github.com/mvasigh/web-workers-react/issues) in this repo!
+Ask me on Twitter [@mehdi_vasigh](https://github.com/mvasigh/web-workers-hjs/issues) or open an [issue](https://github.com/mvasigh/web-workers-hjs/issues) in this repo!

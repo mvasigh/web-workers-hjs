@@ -1,7 +1,7 @@
 {
-  "name": "web-workers-vanilla",
+  "name": "1-intro",
   "version": "1.0.0",
-  "description": "Basic example of Web Workers",
+  "description": "Basic Web Workers example",
   "main": "index.html",
   "author": "Mehdi Vasigh <mehdi.vasigh@gmail.com>",
   "license": "MIT",
