@@ -4,7 +4,8 @@ import { Container } from '../components';
 
 const Detail = ({ imageId }) => {
   useEffect(() => {
-    document.documentElement.style.setProperty('--app-hue', '100');
+    document.documentElement.style.setProperty('--app-hue', '300');
+    document.documentElement.style.setProperty('--app-saturation', '70%');
   });
   return (
     <Container>
