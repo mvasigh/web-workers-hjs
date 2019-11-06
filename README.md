@@ -13,24 +13,19 @@ To clone, run the following command:
 
 ```bash
 git clone https://github.com/mvasigh/web-workers-hjs.git
-cd web-workers-react 
+cd web-workers-hjs
 ```
 
 ### Repository structure
 This repository consists of two applications: 
-* [Intro - Bounce example](1-intro)
-<!-- * [React Web Workers Example](react-app) -->
+* [Intro - Bounce example (basic)](1-basic)
+* [Advanced - Image example (advanced)](1-advanced)
 
 ### Installing dependencies
-It is recommended that you install dependencies for each of these applications before the workshop in case there are difficulties with WiFi. Simply run `npm install` or `yarn` in each of the two directories to install any necessary depencencies:
+It is recommended that you install dependencies for these applications before the workshop in case there are difficulties with WiFi. Simply run `npm install` or `yarn` in the root directory to install any necessary depencencies:
 
-```bash
-cd 1-intro
-npm install
-
-# cd ../react-app
-# npm install
-```
+### Additional examples
+The `workerize` example shown during the presentation on CodeSandbox can be [found here](https://codesandbox.io/s/creating-web-workers-on-the-fly-6rdng) 
 
 ## Questions?
 Ask me on Twitter [@mehdi_vasigh](https://github.com/mvasigh/web-workers-hjs/issues) or open an [issue](https://github.com/mvasigh/web-workers-hjs/issues) in this repo!
