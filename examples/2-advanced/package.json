@@ -23,6 +23,8 @@
     }
   },
   "dependencies": {
+    "color-convert": "^2.0.1",
+    "comlink": "^4.1.0",
     "preact": "^10.0.4",
     "preact-router": "^3.1.0"
   }

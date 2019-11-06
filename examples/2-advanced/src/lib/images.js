@@ -27,3 +27,15 @@ export function fetchWallpapers() {
       });
     });
 }
+
+export function fetchImages() {
+  const ids = Array(10)
+    .fill(null)
+    .map(() => Math.floor(Math.random() * 50));
+  return ids.map(id => ({
+    id,
+    title: `Image ${id}`,
+    author: 'Mehdi Vasigh',
+    src: `https://picsum.photos/id/${id}/640/480`
+  }));
+}

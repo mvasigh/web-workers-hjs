@@ -11,7 +11,7 @@ export function getTheme() {
 
 export function setTheme({ hue, saturation, luminosity }) {
   const style = document.documentElement.style;
-  hue && style.setProperty('--app-hue', hue);
-  saturation && style.setProperty('--app-saturation', saturation);
-  luminosity && style.setProperty('--app-luminosity', luminosity);
+  hue && style.setProperty('--app-hue', `${hue}`);
+  saturation && style.setProperty('--app-saturation', `${saturation}%`);
+  luminosity && style.setProperty('--app-luminosity', `${luminosity}%`);
 }

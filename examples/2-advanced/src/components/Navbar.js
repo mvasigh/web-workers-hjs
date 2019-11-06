@@ -7,14 +7,7 @@ const Navbar = () => {
   return (
     <nav class="Navbar">
       <Container>
-        <ul class="Navbar-menu">
-          <li>
-            <Link href="/">Gallery</Link>
-          </li>
-          <li>
-            <Link href="/1234">Detail</Link>
-          </li>
-        </ul>
+        <Link href="/">Home</Link>
       </Container>
     </nav>
   );
