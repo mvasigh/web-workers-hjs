@@ -19,7 +19,7 @@ cd web-workers-hjs
 ### Repository structure
 This repository consists of two applications: 
 * [Intro - Bounce example (basic)](1-basic)
-* [Advanced - Image example (advanced)](1-advanced)
+* [Advanced - Image example (advanced)](2-advanced)
 
 ### Installing dependencies
 It is recommended that you install dependencies for these applications before the workshop in case there are difficulties with WiFi. Simply run `npm install` or `yarn` in the root directory to install any necessary depencencies:
