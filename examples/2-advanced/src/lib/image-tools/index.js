@@ -1,3 +1,3 @@
-import * as Comlink from 'comlink';
+import ImageTools from './ImageTools'
 
-export default Comlink.wrap(new Worker('./ImageTools.js'));
+export default ImageTools

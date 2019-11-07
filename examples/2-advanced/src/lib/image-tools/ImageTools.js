@@ -1,4 +1,3 @@
-import * as Comlink from 'comlink';
 import { getBlobDominantColor } from './util';
 
 class ImageTools {
@@ -18,4 +17,4 @@ class ImageTools {
   }
 }
 
-Comlink.expose(ImageTools);
+export default ImageTools
